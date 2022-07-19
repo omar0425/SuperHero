@@ -10,9 +10,20 @@ export default function SuperHeroPage() {
   const [filteredHeros,setFilteredHeros] =useState(superHeroData)
   
   function addSuperHero(newSuperHero){
-    setSuperHeroData([...superHeroData,newSuperHero])
+    const superPost = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify(newSuperHero)
+      }
+      fetch(`http://localhost:3000/heros`,superPost)
+      .then(res =>res.json())
+      .then(data => console.log(data))
+      setSuperHeroData([...superHeroData,newSuperHero])
+    }
+
   
-  }  
 function handleSearch(e){
 const searchHeros = superHeroData.filter(hero => {
   return hero.name.toUpperCase().includes(e.target.value.toUpperCase())

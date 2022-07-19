@@ -6,8 +6,8 @@ export default function NewSuperHeroForm({addSuperHero}){
   return(
     <div className="new-superhero-form">
       <h2>Add Your Own Super Hero 🦸‍♀️ </h2>
-      <form >
-      {/* onSubmit={handleSubmit} */}
+      <form onSubmit={()=>{console.log(`submitting form`)}}>
+       
         <input 
         type="text" 
         name="name" 
@@ -26,12 +26,13 @@ export default function NewSuperHeroForm({addSuperHero}){
         placeholder="First Appearance" 
         // onChange={handleChange}
         />
-                <input 
+        <input 
         type="text" 
         name="publisher" 
         placeholder="Publisher" 
         // onChange={handleChange}
         />
+        
         <button type="submit">Add SuperHero</button>
       </form>
     </div>
