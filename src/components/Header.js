@@ -4,7 +4,7 @@ export default function Header(){
   return(
     <header>
     <h1>
-      Super Hero Page
+      Super Hero Page Test 
       <span className="logo" role="img">
         🦸‍♂️  
       </span>
