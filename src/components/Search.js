@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Search({superHeroData}){
+export default function Search({handleSearch}){
   
   return(
     <div className="searchbar">
@@ -9,7 +9,7 @@ export default function Search({superHeroData}){
       type="text"
       id="search"
       placeholder="Type a name to search..."
-      // onChange={handleSearch}
+      onChange={handleSearch}
     />
   </div>
 );

@@ -6,21 +6,28 @@ import SuperHeroList from "./SuperHeroList";
 export default function SuperHeroPage() {
   
 const [superHeroData, setSuperHeroData] = useState([])
-const [filteredHeros,setFilteredHeros] =useState([])
+const [filteredHeros,setFilteredHeros] =useState(superHeroData)
 
+function handleSearch(e){
+const searchHeros = superHeroData.filter(hero => {
+  return hero.name.toUpperCase().includes(e.target.value.toUpperCase())
+})
+setFilteredHeros(searchHeros)
+}
 
 useEffect(() =>{
 fetch(`http://localhost:3000/heros`)
 .then(res => res.json())
-.then(data => setSuperHeroData(data))
+.then(data => {setSuperHeroData(data) 
+setFilteredHeros(data)})
 },[])
 
 console.log(superHeroData)
 return (
   <div>
   <NewSuperHeroForm />
-  <Search superHeroData={superHeroData}/ >
+  <Search handleSearch={handleSearch}/ >
   <button>Sort By Name</button>
-  <SuperHeroList superHeroData={superHeroData}/>
+  <SuperHeroList filteredHeros={filteredHeros}/>
   </div>
 )}
