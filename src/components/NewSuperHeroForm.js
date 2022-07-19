@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-export default function NewSuperHeroForm(){
+export default function NewSuperHeroForm({addSuperHero}){
 
  
   return(

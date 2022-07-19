@@ -4,10 +4,15 @@ import Search from "./Search";
 import SuperHeroList from "./SuperHeroList";
 
 export default function SuperHeroPage() {
-  
-const [superHeroData, setSuperHeroData] = useState([])
-const [filteredHeros,setFilteredHeros] =useState(superHeroData)
 
+  
+  const [superHeroData, setSuperHeroData] = useState([])
+  const [filteredHeros,setFilteredHeros] =useState(superHeroData)
+  
+  function addSuperHero(newSuperHero){
+    setSuperHeroData([...superHeroData,newSuperHero])
+  
+  }  
 function handleSearch(e){
 const searchHeros = superHeroData.filter(hero => {
   return hero.name.toUpperCase().includes(e.target.value.toUpperCase())
@@ -25,7 +30,7 @@ setFilteredHeros(data)})
 console.log(superHeroData)
 return (
   <div>
-  <NewSuperHeroForm />
+  <NewSuperHeroForm addSuperHero={addSuperHero}/>
   <Search handleSearch={handleSearch}/ >
   <button>Sort By Name</button>
   <SuperHeroList filteredHeros={filteredHeros}/>
