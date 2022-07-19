@@ -1,6 +1,8 @@
-import React from "react";
+import React,{useState} from "react";
 
 export default function NewSuperHeroForm(){
+
+ 
   return(
     <div className="new-superhero-form">
       <h2>Add Your Own Super Hero 🦸‍♀️ </h2>
@@ -15,18 +17,18 @@ export default function NewSuperHeroForm(){
         <input 
         type="text" 
         name="image" 
-        placeholder="Image URL" 
+        placeholder="Image url" 
         // onChange={handleChange}
         />
         <input 
         type="text" 
-        name="First-Appearance" 
+        name="firstappearance" 
         placeholder="First Appearance" 
         // onChange={handleChange}
         />
                 <input 
         type="text" 
-        name="Publisher" 
+        name="publisher" 
         placeholder="Publisher" 
         // onChange={handleChange}
         />

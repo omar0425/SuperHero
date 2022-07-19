@@ -6,6 +6,8 @@ import SuperHeroList from "./SuperHeroList";
 export default function SuperHeroPage() {
   
 const [superHeroData, setSuperHeroData] = useState([])
+const [filteredHeros,setFilteredHeros] =useState([])
+
 
 useEffect(() =>{
 fetch(`http://localhost:3000/heros`)
@@ -17,7 +19,7 @@ console.log(superHeroData)
 return (
   <div>
   <NewSuperHeroForm />
-  <Search / >
+  <Search superHeroData={superHeroData}/ >
   <button>Sort By Name</button>
   <SuperHeroList superHeroData={superHeroData}/>
   </div>
