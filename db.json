@@ -62,22 +62,34 @@
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/1505.jpg",
       "firstappearance": "Space Ghost (1966)",
       "publisher": "DC Comics"
-      
-},
-{
-  "id": "10",
-  "name": "John Stewart",
-  "url": "https://www.superherodb.com/pictures2/portraits/10/100/873.jpg",
-  "firstappearance": "Green Lantern Vol 2 #87",
-  "publisher": "DC Comics"
-
-},
-{
-  "id": "11",
-  "name": "Professor Zoom",
-  "url": "https://www.superherodb.com/pictures2/portraits/10/100/766.jpg",
-  "firstappearance": "Flash #139 (September, 1963)",
-  "publisher": "DC Comics"
-}
+    },
+    {
+      "id": "10",
+      "name": "John Stewart",
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/873.jpg",
+      "firstappearance": "Green Lantern Vol 2 #87",
+      "publisher": "DC Comics"
+    },
+    {
+      "id": "11",
+      "name": "Professor Zoom",
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/766.jpg",
+      "firstappearance": "Flash #139 (September, 1963)",
+      "publisher": "DC Comics"
+    },
+    {
+      "id": "seo1kMD",
+      "name": "Julia Garner",
+      "url": "https://www.glamourmagazine.co.uk/article/madonna-biopic-julia-garner",
+      "firstappearance": "1987",
+      "publisher": "none"
+    },
+    {
+      "id": "q58jrZL",
+      "name": "Julia Garner",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwpQ0nKLBPk0zFoJ0jZ9iT5xrbtM2DhT-XnQ&usqp=CAU",
+      "firstappearance": "1987",
+      "publisher": "none"
+    }
   ]
 }

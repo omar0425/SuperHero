@@ -8,19 +8,21 @@ const[formData,setFormData] = useState({
   "firstappearance": "",
   "publisher": ""
 })
-console.log(formData)
+
 function handleChange(event){
   setFormData(prevFormData =>{
     return {...prevFormData,[event.target.name]: event.target.value
   }})
 }
- 
+
   return(
     <div className="new-superhero-form">
       <h2>Add Your Own Super Hero 🦸‍♀️ </h2>
-      <form onSubmit={()=>{console.log(`submitting form`)}}>
-
-       
+      <form onSubmit={() => {
+        console.log(`submitting form`)
+      addSuperHero(formData)
+      }}
+       >
         <input 
         type="text" 
         name="name" 
@@ -30,7 +32,7 @@ function handleChange(event){
         />
         <input 
         type="text" 
-        name="image" 
+        name="url" 
         placeholder="Image url" 
         value={formData.url}
         onChange={handleChange}

@@ -19,8 +19,8 @@ export default function SuperHeroPage() {
       }
       fetch(`http://localhost:3000/heros`,superPost)
       .then(res =>res.json())
-      .then(data => console.log(data))
-      setSuperHeroData([...superHeroData,newSuperHero])
+      .then(data => setSuperHeroData(data))
+      setSuperHeroData({...superHeroData,newSuperHero})
     }
 
   
