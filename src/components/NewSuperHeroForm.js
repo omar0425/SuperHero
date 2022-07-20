@@ -19,7 +19,6 @@ function handleChange(event){
     <div className="new-superhero-form">
       <h2>Add Your Own Super Hero 🦸‍♀️ </h2>
       <form onSubmit={() => {
-        console.log(`submitting form`)
       addSuperHero(formData)
       }}
        >

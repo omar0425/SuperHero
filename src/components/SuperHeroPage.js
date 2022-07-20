@@ -38,12 +38,18 @@ fetch(`http://localhost:3000/heros`)
 setFilteredHeros(data)})
 },[])
 
-console.log(superHeroData)
+function handleClick(){
+  superHeroData.sort((a,b) => {
+    if (a.name > b.name) return - 1
+    if (a.name < b.name) return 1
+    else return 0
+  })
+}
 return (
   <div>
   <NewSuperHeroForm addSuperHero={addSuperHero}/>
   <Search handleSearch={handleSearch}/ >
-  <button>Sort By Name</button>
+  <button onClick={handleClick}>Sort By Name</button>
   <SuperHeroList filteredHeros={filteredHeros}/>
   </div>
 )}
