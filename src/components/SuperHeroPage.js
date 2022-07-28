@@ -39,11 +39,12 @@ setFilteredHeros(data)})
 },[])
 
 function handleClick(){
-  superHeroData.sort((a,b) => {
-    if (a.name > b.name) return - 1
-    if (a.name < b.name) return 1
+ const sortedHeros = superHeroData.slice().sort((a,b) => {
+    if (a.name > b.name) return  1
+    if (a.name < b.name) return - 1
     else return 0
   })
+setFilteredHeros(sortedHeros)
 }
 return (
   <div>
