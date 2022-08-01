@@ -1,18 +1,18 @@
 {
   "heros": [
     {
-      "id": "1",
-      "name": "Power Girl",
-      "url": "https://www.superherodb.com/pictures2/portraits/10/100/758.jpg",
-      "firstappearance": "All-Star Comics #58 (January/February 1976)",
-      "publisher": "DC Comics"
-    },
-    {
       "id": "3",
       "name": "Indiana Jones",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/10560.jpg",
       "firstappearance": "Raiders of the Lost Ark (1981)",
       "publisher": "George Lucas"
+    },
+    {
+      "id": "1",
+      "name": "Power Girl",
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/758.jpg",
+      "firstappearance": "All-Star Comics #58 (January/February 1976)",
+      "publisher": "DC Comics"
     },
     {
       "id": "4",
@@ -77,7 +77,5 @@
       "firstappearance": "Flash #139 (September, 1963)",
       "publisher": "DC Comics"
     }
-
-   
   ]
 }
