@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>
-        Lets Get Started!
+        Click here to get started
       </h1>
     </div>
   )

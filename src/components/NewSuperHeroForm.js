@@ -18,6 +18,7 @@ function handleChange(event){
   return(
     <div className="new-superhero-form">
       <h2>Add Your Own Super Hero 🦸‍♀️ </h2>
+      <div className="input">
       <form onSubmit={() => {
       addSuperHero(formData)
       }}
@@ -53,6 +54,7 @@ function handleChange(event){
         
         <button type="submit">Add SuperHero</button>
       </form>
+      </div>
     </div>
   );
   

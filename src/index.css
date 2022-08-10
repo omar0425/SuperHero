@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+
 .cards {
   list-style: none;
 }
 .App {
   text-align: center;
+  font-family: 'Bangers', cursive;
+  background-color: black;
+  color: red;
 }
 .like {
-  background-color: white;
+  background-color: black;
 }
+header{
+  font-size: 100px;
+}
+.notfound{
+  font-size: 50px;
+}
+/* .new-superhero-form{
+  font-size: 50px;
+  margin-top: 20px;
+} */
+/* input{
+  width: 100%;
+  margin: 0;
+
+} */

@@ -3,7 +3,7 @@ import image from '../images/image.png'
 
 const NotFound = () => {
   return (
-    <div>
+    <div className="notfound">
 <h1>404 PAGE NOT FOUND</h1>
 <h3>What did you do?</h3>
 <p>Check that you typed the address correctly, go back to your previous page or try using our site search to find something specific.</p>
