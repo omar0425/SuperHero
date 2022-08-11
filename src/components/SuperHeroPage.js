@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from "react";
 import NewSuperHeroForm from "./NewSuperHeroForm";
-
+import { Link } from "react-router-dom";
 import SuperHeroList from "./SuperHeroList";
 
 export default function SuperHeroPage() {
@@ -37,5 +37,10 @@ return (
   <div>
   <NewSuperHeroForm addSuperHero={addSuperHero}/>
   <SuperHeroList superHeroData={superHeroData}/>
+  <Link to="/">
+      <h1>
+        Click here to Home
+      </h1>
+      </Link>
   </div>
 )}

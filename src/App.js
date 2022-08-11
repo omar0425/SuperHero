@@ -13,7 +13,7 @@ function App() {
         <Route path='/' component={Home} exact />
         <Route path ="/SuperHeroPage"component={SuperHeroPage} />
         <Route component={NotFound} />
-      <SuperHeroPage />
+      <Home />
       </Switch>
     </div>
   );
