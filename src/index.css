@@ -20,12 +20,13 @@ header{
 .notfound{
   font-size: 50px;
 }
-/* .new-superhero-form{
-  font-size: 50px;
-  margin-top: 20px;
-} */
-/* input{
-  width: 100%;
-  margin: 0;
 
-} */
+ input[type=text]{
+  background-color: black;
+  color: red;
+  width: 100%;
+  text-align: center;
+} 
+.add{
+font-size: 70px;
+}

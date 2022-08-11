@@ -1,81 +1,88 @@
 {
   "heros": [
     {
-      "id": "3",
+      "id": 3,
       "name": "Indiana Jones",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/10560.jpg",
       "firstappearance": "Raiders of the Lost Ark (1981)",
       "publisher": "George Lucas"
     },
     {
-      "id": "1",
+      "id": 1,
       "name": "Power Girl",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/758.jpg",
       "firstappearance": "All-Star Comics #58 (January/February 1976)",
       "publisher": "DC Comics"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Hulk",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/83.jpg",
       "firstappearance": "Incredible Hulk #1 (May, 1962)",
       "publisher": "Marvel Comics"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Groot",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/10017.jpg",
       "firstappearance": "Tales to Astonish #13 (November, 1960)",
       "publisher": "Marvel Comics"
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Harry Potter",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/10878.jpg",
       "firstappearance": "Harry Potter and the Philosopher's Stone",
       "publisher": "J. K. Rowling"
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Joker",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/719.jpg",
       "firstappearance": "Batman #1 (Spring 1940)",
       "publisher": "DC Comics"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "White Queen",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/157.jpg",
       "firstappearance": "UNCANNY X-MEN #129",
       "publisher": "Marvel Comics"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Jessica Cruz",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/10650.jpg",
       "firstappearance": "Green Lantern Vol 5 #20 (July, 2013)",
       "publisher": "DC Comics"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Space Ghost",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/1505.jpg",
       "firstappearance": "Space Ghost (1966)",
       "publisher": "DC Comics"
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "John Stewart",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/873.jpg",
       "firstappearance": "Green Lantern Vol 2 #87",
       "publisher": "DC Comics"
     },
     {
-      "id": "11",
+      "id": 11,
       "name": "Professor Zoom",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/766.jpg",
       "firstappearance": "Flash #139 (September, 1963)",
       "publisher": "DC Comics"
+    },
+    {
+      "name": "Omar ",
+      "url": "https://www.glamourmagazine.co.uk/article/madonna-biopic-julia-garner",
+      "firstappearance": "1987",
+      "publisher": "Ozark",
+      "id": 12
     }
   ]
 }
