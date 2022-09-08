@@ -43,13 +43,6 @@
       "publisher": "DC Comics"
     },
     {
-      "id": 8,
-      "name": "White Queen",
-      "url": "https://www.superherodb.com/pictures2/portraits/10/100/157.jpg",
-      "firstappearance": "UNCANNY X-MEN #129",
-      "publisher": "Marvel Comics"
-    },
-    {
       "id": 2,
       "name": "Jessica Cruz",
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/10650.jpg",
@@ -76,13 +69,6 @@
       "url": "https://www.superherodb.com/pictures2/portraits/10/100/766.jpg",
       "firstappearance": "Flash #139 (September, 1963)",
       "publisher": "DC Comics"
-    },
-    {
-      "name": "Daredevil",
-      "url": "https://www.superherodb.com/pictures2/portraits/10/100/52.jpg",
-      "firstappearance": " Daredevil #1 (April, 1964)",
-      "publisher": "Marvel Comics",
-      "id": 12
     }
   ]
 }

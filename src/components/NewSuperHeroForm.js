@@ -57,6 +57,7 @@ function handleSubmit(e){
         <button className="submit" type="submit">Add SuperHero</button>
       </form>
       </div>
+
     </div>
   );
   

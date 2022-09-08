@@ -1,13 +1,16 @@
 import React,{useState} from "react";
 
-export default function SuperHeroCard({hero}){
+export default function SuperHeroCard({hero,handleDelete}){
 const [like,setLike]=useState(true)
+
+
 function handleClick(){
   setLike(prev =>!prev)
 }
 
   return(
 <li className="card">
+
 {like ? (
   <button className="like" onClick={handleClick}>💚 </button>
 ) : <button onClick={handleClick}>😿 </button>}
